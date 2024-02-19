@@ -109,3 +109,6 @@ print(arr)
 Q: display True if the first element of the array is Even else False
 
 '''
+
+isEven = (arr[0] % 2) == 0
+print(isEven)
