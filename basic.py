@@ -1,4 +1,6 @@
 a = 9
+
+
 '''
 Numeric Data Type:
 int, float
@@ -23,15 +25,15 @@ None
 number = 9
 floatNumber = 9.002
 
-
-arr = [1, 2, 3, 4, "String", 9.03]
+'''list'''
+arr = [1, 2, 3, 4, "String", 9.03, 90, 3]
+print(arr)
 
 ''' tuple is a collection of elements that cannot be updated '''
 tuplearr = (1, 2, 3, 4, "String", 9.03)
 
-
 ''' set is a collection of unique elements '''
-setarr = {1, 2, 3, 4, 5, 6, 6}
+setarr = {1, 2, 3, 4, 5, 6, 6, 5}
 
 ''' boolean data type '''
 isTrue = True
@@ -71,14 +73,16 @@ person = {
 *
 / 
 % -> Modulus
-** -> Power
-// -> division without decimal
+** -> Power 2**2 -> 4
+// -> division without decimal 5/2 -> 2.5   5//2 -> 2
 '''
 
 
 
 # Comparison Operators
 # > < == != 
+# == is 
+
 
 name1 = "Jhon"
 name2 = "Jane"
@@ -105,6 +109,8 @@ centerPos = int((len(arr)) // 2)
 arr[centerPos] = "Hello World"
 
 print(arr)
+[1, 2, 3, 4, 5, "Hello World", 7, 8, 9, 10, 11]
+
 
 Q: display True if the first element of the array is Even else False
 
