@@ -47,8 +47,29 @@ Q: find factorial of a number given by user
 def factorial(number):
     result = 1
     for i in range(1, number+1):
-        result *= i
-    return result, "Hello World", 89
+        result *= i            
+    return result
+
+def power(a, b):
+    return a**b
+
+fact = factorial(5)
 
 
-fact, string, number = factorial(5)
+def sum(a, b):
+    return a+b
+
+a = sum(30, 20) # 50
+a = sum(10, 20) # 30
+
+# print(a) 
+
+
+person = {
+    "name": "Jhon Doe",
+    "age": 18,
+    "address": ["Kathmandu", "Lalitpur", "Bhaktapur"]
+}
+
+# for i in person["address"]:
+#     print(i)
