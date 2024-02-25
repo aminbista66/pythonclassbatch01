@@ -1,0 +1,12 @@
+Name: jhon
+Age: 17
+Gender: male
+
+Name: Jane
+Age: 16
+Gender: female
+
+Name: Jack
+Age: 23
+Gender: male
+
