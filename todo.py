@@ -13,6 +13,7 @@ def todo_list():
     tasks = read_from_file()
 
     while True:
+        # display list
         if len(tasks) > 0:
             print("\nTo-do List: ")
             for i, task in enumerate(tasks):
