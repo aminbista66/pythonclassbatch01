@@ -37,3 +37,23 @@ for i in range(1, user_input + 1):
     result += i
 
 print(result)
+
+
+
+number = input("Enter a number: ")
+if number % 2 == 0:
+    print("Even")
+
+while True:
+    print("Even")
+    
+    if number % 2 == 0:
+        break
+
+    print("Odd")
+
+
+rollno = [1, 2, 3, 4, 5, 6, 7,8,9]
+
+for i in range(9):
+    print(i)
