@@ -5,7 +5,11 @@ def get_factorial(number):
     # print(f"factorial of a number: {result}")
     return result
 
+PI = 3.14
 
-a = int(input("Enter a number: "))
-b = get_factorial(a)
-print("Factorial of a number: ", b)
+
+# a = int(input("Enter a number: "))
+# b = get_factorial(a)
+# print("Factorial of a number: ", b)
+
+LAMBDA = 223

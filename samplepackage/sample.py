@@ -1,2 +1,2 @@
 def now():
-    return "This is now function"
+    print("This is now function")

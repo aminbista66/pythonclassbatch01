@@ -1,5 +1,7 @@
 import random
+from datetime import datetime, timedelta
 
+start_datetime = datetime.now()
 
 def main():
     print("====== Number Guessing Game ======")
@@ -8,9 +10,13 @@ def main():
     DIFFERNCE_THRESHOLD = 10
 
     while True:
+        if start_datetime < datetime.now() - timedelta(seconds=10):
+            print("Time is over")
+            break
+
         # for better error message
         try:
-            user_guess = int(input("Enter your Guess: "))
+            user_guess = int(input("Enter your Guess: ")) # this line needs only number
         except Exception:
             print("Enter a valid number")
             continue

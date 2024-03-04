@@ -1,6 +1,4 @@
 # inheritance / Polymorhpism
-
-
 class Vechile:
     def __init__(self, vechile_number, chassis_number, category):
         self.vechile_number = vechile_number
@@ -15,6 +13,8 @@ class Vechile:
     def say_hello(self):
         print("Hello from Vechile")
 
+v1 = Vechile("1234", "1234", "four-wheeler")
+v1.display()
 
 class Bike(Vechile):
     def __init__(self, name, model, color, vechile_number, chassis_number):
@@ -63,3 +63,6 @@ modified_bike.display()
 
 
 
+import os
+
+os.environ.get("SECRET_KEY")
